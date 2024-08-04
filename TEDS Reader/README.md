@@ -6,7 +6,8 @@ The data saved in the TEDS architecture includes:
   Model Number,
   Manufacturer,
   Sensitivity,
-  Calibration Date
+  Calibration Date,
+  and other relevant information relating to the sensor.
   
 TEDS to OneWire Converter
   This page of the schematic describes a circuit that converts the negative TEDS signal to a positive OneWire signal. The OneWire protocol is easily readable using an Arduino and its corresponding library.
