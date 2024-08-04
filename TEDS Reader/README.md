@@ -1,13 +1,12 @@
 This circuit was designed to read and write data on TEDS enabled devices such as microphones and accelerometers.
 TEDS (Transducer Electronic Datasheet) is an IEEE standard for storing sensor information directly onto a small EEPROM chip using the OneWire protocol.
 By supplying a constant negative voltage to the device, you are able to communicate with the internal memory.
-The data saved in the TEDS architecture includes:
-  Serial Number,
-  Model Number,
-  Manufacturer,
-  Sensitivity,
-  Calibration Date,
-  and other relevant information relating to the sensor.
+The data saved in the TEDS architecture includes:  
+  Serial Number  
+  Model Number  
+  Manufacturer  
+  Sensitivity  
+  Calibration Date  
   
 TEDS to OneWire Converter:  
   This page of the schematic describes a circuit that converts the negative TEDS signal to a positive OneWire signal. The OneWire protocol is easily readable using an Arduino and its corresponding library.
