@@ -15,14 +15,14 @@ The signals generated include:
   0-10V Sine  
   4-20mA Sine
 
-Dual-Rail Power Supply
+Dual-Rail Power Supply  
   The back side of the PCB contains the power supply circuit. The device takes two 9V batteries and boosts the voltage to 24V. 
   This works due to the circuit being relatively low power as it does not need much current to generate the oscillating signal.
 
-1Hz Voltage Function Generator
+1Hz Voltage Function Generator  
   This is where the LFO is detailed and describes the +/-2.5V square wave generator and the +/-1V sine wave generator.
   Each subsiquent op-amp circuit either boosts or bucks the amplitude of the oscilator circuit to the desired voltage.
 
-1Hz Current Function Generator
+1Hz Current Function Generator  
   This circuit depicts the conversion circuit from the 0-5V sine wave circuit to the 4-20mA sine wave signal.
   The rotary dial switch is also described here, showing the switching between each signal being passed to the analog output.
