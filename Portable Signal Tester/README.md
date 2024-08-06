@@ -2,18 +2,18 @@ This device was intended to be a portable solution to help troubleshoot data acq
 The circuit acts as a Low Frequency Oscillator (LFO) that generates a square wave signal at 1Hz that is then converted to a voltage and current controlled sine wave. 
 These signals are then passed through a series of op-amps that amplify at different amplitudes that are common for most acquisition systems.   
 The signals generated include:  
-+/-2.5V Square
-+/-12V Square
-0-24V Square
-+/-50mV Sine
-+/-1V Sine
-+/-5V Sine
-+/-10V Sine
-+/-20V Sine
-0-1V Sine
-0-5V Sine
-0-10V Sine
-4-20mA Sine
++/-2.5V Square  
++/-12V Square  
+0-24V Square  
++/-50mV Sine  
++/-1V Sine  
++/-5V Sine  
++/-10V Sine  
++/-20V Sine  
+0-1V Sine  
+0-5V Sine  
+0-10V Sine  
+4-20mA Sine  
 
 Dual-Rail Power Supply  
 The back side of the PCB contains the power supply circuit. The device takes two 9V batteries and boosts the voltage to 24V. 
